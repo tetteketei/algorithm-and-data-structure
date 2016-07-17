@@ -4,7 +4,7 @@
 using namespace std;
 
 int main(){
-	int len; //this is the length of period
+	int len; //this is the length of the period
 	int arr[len];
 	int minv,maxv;
 
