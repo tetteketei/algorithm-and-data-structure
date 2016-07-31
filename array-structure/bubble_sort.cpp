@@ -24,10 +24,11 @@ int main(){
 		}
 	}
 	for(int i = 0; i < n; i++){
-		printf("%d ",arr[i]);
+		if( i ) cout << " ";
+		cout << arr[i];
 	}
-	printf("\n");
-	printf("%d\n",cnt);
+	cout << endl;
+	cout << cnt << endl;
 }
 
 
